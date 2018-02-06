@@ -91,7 +91,9 @@ As a result of completing Lecture 2 of Code 201, students will:
 
 *We also need to discuss the role of* **pseudocode**, *which is something the Duckett text does not cover very well.*
 
-<a id="code"></a>
+[-top-](#top)
+
+<a id="lj"></a>
 ## Learning Journal + Career Coaching
 
 We will look at the first learning journal assignment in Canvas together and explain the purpose of those assignments.
