@@ -15,10 +15,10 @@ function woo() { // This is the function declaration
   console.log('Wooooooo!!!!');
 }
 
-woo(); // This is a function call (or, invoke the function)
-woo();
-woo();
-woo();
+// woo(); // This is a function call (or, invoke the function)
+// woo();
+// woo();
+// woo();
 
 // We'll start with this commented out, then check it in the console, first by entering only the function name 'woo' in the console, then by entering the function call 'woo()' in the console.
 
@@ -38,7 +38,7 @@ function clue(who, where, weapon) {
 }
 
 // Called with three arguments
-clue('Phil', 'Ada Lovelace Classroom', 'CSS');
+// clue('Phil', 'Ada Lovelace Classroom', 'CSS');
 
 // We can also call this in the console with different arguments.
 
@@ -96,14 +96,15 @@ function mathsGetHarder(numOne, numTwo, numThree) {
 
 // Function Scope
 
-// var dog = 'Demi'; // GLOBAL VARIABLE
-//
-// function fire() {
-//   var allie = 'Allie Mae Sue'; // LOCAL VARIABLE
-//   console.log('Allie\'s Southern name is ' + allie);
-//   console.log('Demi\'s old global name is ' + demi); // um, no, because hoisting
-//   demi = 'Doggo';
-//   console.log('Demi\'s new local name is ' + demi);
-//   return 'THIS IS THE RETURN STATEMENT OUTPUT';
-// }
+var dog = 'Demi'; // GLOBAL VARIABLE
+
+function fire() {
+  var allie = 'Allie Mae Sue'; // LOCAL VARIABLE
+  console.log('Here is is a global variable logged from inside a function: ' + dog);
+  console.log('Allie\'s Southern name is ' + allie);
+  console.log('Demi\'s old global name is ' + demi); // um, no, because hoisting
+  var demi = 'Doggo';
+  console.log('Demi\'s new local name is ' + demi);
+  return 'THIS IS THE RETURN STATEMENT OUTPUT';
+}
 // console.log('But, outside of the function, Demi\s name is ' + demi);
