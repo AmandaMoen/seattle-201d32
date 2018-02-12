@@ -15,7 +15,7 @@
 
 - Lab prep *[45 minutes]*
 
-## One(two)-on-one meetings
+## One-on-one meetings
 
 - Sam will do 15-minute one-on-one meetings with each student during Weeks 2 and 4 of the course.
 - The goal of the meetings is to provide an opportunity for individual feedback and for students to ask any questions they may have.
