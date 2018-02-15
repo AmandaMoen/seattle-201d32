@@ -2,9 +2,7 @@
 
 We'll start this in class together.
 
-Create a new CodePen titled 'wirefame-exercise'.
-
-Configure a reset.css.
+Create a new repo titled 'wirefame-exercise' and add `index.html`, `style.css`, and `reset.css` files.
 
 The specifications for the wireframe are in the adjacent image documents in this directory. One of the images (**wireframe-comp**) shows what the finished product should look like, and the other (**wireframe-annotated**) shows specifications and dimensions.
 
