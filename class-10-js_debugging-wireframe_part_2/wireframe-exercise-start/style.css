@@ -2,6 +2,9 @@
   font-family: Helvetica, sans-serif;
 }
 
+
+/* STYLES FOR THE HEADER */
+
 header,
 footer {
   background: #333;
@@ -27,11 +30,80 @@ nav li {
 }
 
 a {
+  font-family: Helvetica, sans-serif;
   text-decoration: none;
   color: #888;
 }
 
+
+/* STYLES FOR THE MAIN SECTION  */
+
 main {
   width: 960px;
   margin: 30px auto;
+}
+
+main ul {
+  padding-left: 0px;
+}
+
+main li {
+  list-style: none;
+  float: left;
+  margin-top: 30px;
+}
+
+main li:nth-child(2n) {
+  margin: 30px 30px 30px 30px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+section img {
+  float: left;
+}
+
+section div {
+  width: calc(50% - 30px);
+  float: left;
+  padding-left: 30px;
+  margin-bottom: 30px;
+}
+
+section h2 {
+  font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+section p {
+  height: 330px;
+  overflow: auto;
+  font-style: italic;
+  line-height: 24px;
+}
+
+button {
+  border: none;
+  padding: 10px 30px;
+  background: #000;
+  color: #fff;
+  border-radius: 3px;
+  font-size: 18px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: 350ms;
+}
+
+button:hover {
+  background: green;
+}
+
+
+/* FOOTER */
+
+footer {
+  clear: both;
 }
