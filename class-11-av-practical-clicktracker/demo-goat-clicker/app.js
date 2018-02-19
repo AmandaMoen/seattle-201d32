@@ -22,16 +22,24 @@ new Goat('Toothy goat', 'img/toothy-goat.jpg');
 new Goat('Tongue goat', 'img/tongue-goat.jpg');
 new Goat('Pushy goat', 'img/pushy-goat.jpg');
 
+var goatPic = document.getElementById('goat-pic');
 
 // Let's write a function to randomly display one of the pictures
 function randomGoat() {
   // We need to access the <img> element in the DOM
-
   // Select a random goat from the array of goats
+  var randomGoat = Math.floor(Math.random() * Goat.allGoats.length);
+  // console.log(Goat.allGoats[randomGoat]);
 
   // Assign the src, alt, and title attributes to the <img> element
+  goatPic.src = Goat.allGoats[randomGoat].filepath;
+  goatPic.alt = Goat.allGoats[randomGoat].name;
+  goatPic.title = Goat.allGoats[randomGoat].name;
+
+  console.log(Goat.allGoats[randomGoat].name, 'is being displayed');
 }
 
 randomGoat();
 
 // Now we need to listen for clicks on the goat and then display a new goat
+goatPic.addEventListener('click', randomGoat);
