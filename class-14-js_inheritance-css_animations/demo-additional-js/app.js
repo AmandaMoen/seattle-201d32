@@ -9,7 +9,7 @@ var numArray = [1, 42, 720, 2, 5, 8, 54];
 
 var stringArray = ['Sam', 'Allie', 'Dustin', 'Amanda', 'Ron'];
 
-// console.log('PUSH METHOD');
+console.log('PUSH METHOD');
 // PUSH
 // INPUT: value(s)
 // WHAT IT DOES: adds value(s) at the end of the array, in the order in which they were passed in
@@ -17,8 +17,8 @@ var stringArray = ['Sam', 'Allie', 'Dustin', 'Amanda', 'Ron'];
 
 // add another element to an array:
 // console.log('numArray before pushing 9', numArray);
-numArray.push(9);
-// console.log('numArray after pushing 9', numArray);
+// numArray.push(9, 44, 66);
+// console.log('numArray after pushing 9, 44, 66', numArray);
 
 // console.log('stringArray before pushing Demi', stringArray);
 stringArray.push('Demi');
@@ -73,9 +73,9 @@ stringArray.unshift('Bird');
 // RETURNS: the element that was removed (or undefined if array is empty)
 
 // remove the first element from an array
-// console.log('stringArray before shift', stringArray);
+console.log('stringArray before shift', stringArray);
 stringArray.shift();
-// console.log('stringArray after first shift', stringArray);
+console.log('stringArray after first shift', stringArray);
 // console.log('log message of stringArray shift() **this is the second shift** to show return value: ', stringArray.shift());
 
 // console.log('numArray before first shift', numArray);
