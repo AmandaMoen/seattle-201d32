@@ -70,7 +70,7 @@ button {
     color: white;
   }
   50% {
-    font-size: 10em;
+    font-size: 20em;
     color: black;
   }
   100% {
@@ -80,7 +80,7 @@ button {
 }
 
 .grow {
-  animation: fontgrower 5s infinite;
+  animation: fontgrower 2s infinite;
 }
 
 @keyframes spin {
@@ -90,7 +90,7 @@ button {
 }
 
 .spin {
-  animation: spin 5s infinite;
+  animation: spin 100s infinite;
 }
 
 img {
