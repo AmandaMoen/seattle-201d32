@@ -90,3 +90,40 @@ Short overview of the basics of jQuery and direct students to online resources:
 - Friday: Presentations
 
 [-top-](#top)
+
+## Project Teams
+
+Team 1
+- Sean
+- Panos
+- Jackie
+- Yannick
+
+Team 2
+- Garrett
+- Ryan
+- Joanna
+- Cara
+
+Team 3
+- Sarah
+- James
+- Matt
+- Collin
+
+Team 4
+- Daniel
+- Lacy
+- Mike
+- Michael
+
+Team 5
+- Jimmy
+- Scott
+- Mason
+
+Team 6
+- Jesse
+- Jay
+- Amanda
+- Judah
