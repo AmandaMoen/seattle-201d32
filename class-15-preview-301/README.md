@@ -7,11 +7,11 @@
 
 ##Schedule for Today
 
-- **9:00-10:00ish** Psychological Safety discussion with Brook Riggio, VP of Education
-- **Lecture, Part 2:** Review of 201; preview of 301
+- **9:00-10:00ish** ** Review of 201; preview of 301
+- **Lecture, Part 2: Psychological Safety discussion with Brook Riggio, VP of Education
 - **Lecture, Part 3: (ending by 11:45)** Teams announced, project details
 - **12:15-1:00:** [Partner Power Hour with Cynthia Wang of IBM: Soft Skills for Software](https://www.eventbrite.com/e/partner-power-hour-soft-skills-for-software-developers-tickets-43104635124?aff=calendar)
-**1:00-???:** Lab time. You will have an assignment to complete as a team, and then you can begin your project planning.
+- **1:00-???:** Lab time. You will have an assignment to complete as a team, and then you can begin your project planning.
 
 **Announcements**
 
